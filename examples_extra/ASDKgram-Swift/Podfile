@@ -3,7 +3,5 @@ platform :ios, '9.0'
 target 'ASDKgram-Swift' do
     use_frameworks!
     inhibit_all_warnings!
-
-    pod 'Texture/PINRemoteImage', :path => '../..'
-
+pod 'PINRemoteImage', '~> 3.0.1'
 end
